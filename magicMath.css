@@ -1,0 +1,67 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    border: 3px solid black;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #ddd; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+#mainArea {
+    display: grid;
+    grid-template-columns: 150px 150px 300px 300px;
+    column-gap: 100px;
+}
+
+#gameBoard {
+    font-size: 50px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+}
+
+#gameBoard > button {
+    text-align: center;
+    font-size: 100%;
+    border: 2px solid black;
+}
+
+#operators > button {
+    font-size: 50px;
+    margin: 3px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50px;
+    grid-gap: 0px;
+    border: 2px solid black;
+}
+
+#workArea {
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#workArea > ul {
+    text-align: left;
+}
+
+#scoreBoard {
+    background-color: lightgrey;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+footer {
+    font-size: 15px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
